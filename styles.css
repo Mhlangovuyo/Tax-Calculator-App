@@ -1,0 +1,85 @@
+/* Global reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page background and layout */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #44b3c2, #fce4ec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main card container */
+  .container {
+    background: #c9bbbb;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    text-align: left;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  input[type="number"]:focus,
+  input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  input[readonly] {
+    background-color: #f4f4f4;
+    color: #a79428;
+    font-weight: bolder;
+    text-align: center;
+    border-color: #28a745;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
